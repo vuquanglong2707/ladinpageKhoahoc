@@ -8,6 +8,9 @@ body {
     overflow-x: hidden;
 }
 
+* {
+    box-sizing: border-box;
+}
 .flex {
     display: flex;
     justify-content: center;
@@ -57,9 +60,6 @@ a:hover {
 
 /* button mua ngay */
 
-button {
-    margin: 20px;
-}
 
 .custom-btn {
     text-align: center;
@@ -142,18 +142,6 @@ button {
 
 /* Header start */
 
-header {
-    background-color: blue;
-}
-
-header .container nav {
-    display: flex;
-    justify-content: center;
-}
-
-* {
-    box-sizing: border-box;
-}
 
 .line-through {
     text-decoration: line-through;
