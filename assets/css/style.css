@@ -58,8 +58,8 @@ a:hover {
 /**************************************Setting Button**********************************8  */
 
 
-/* button mua ngay */
 
+/* button mua ngay */
 
 .custom-btn {
     text-align: center;
@@ -67,8 +67,6 @@ a:hover {
     width: 250px;
     color: #fff;
     border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
     font-weight: 500;
     background: transparent;
     cursor: pointer;
@@ -83,8 +81,7 @@ a:hover {
 
 .btn-11 {
     border: none;
-    background: rgb(251, 33, 117);
-    background: linear-gradient(0deg, rgba(251, 33, 117, 1) 0%, rgba(234, 76, 137, 1) 100%);
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
     color: #fff;
     overflow: hidden;
 }
@@ -132,7 +129,6 @@ a:hover {
         opacity: 0;
     }
 }
-
 
 /* End setting button */
 
