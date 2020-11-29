@@ -22,17 +22,65 @@
 
 <body>
     <!-- Header -->
+
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info nav justify-content-center">
-                <a href="#section02">
-                    <button class="custom-btn btn-11" style=" margin-bottom: 0px !important;">Đăng ký ngay</button>
-                </a>
+                <button class="custom-btn btn-11" style=" margin-bottom: 0px !important;" data-toggle="modal" data-target="#form">Đăng ký ngay</button>
             </nav>
         </div>
     </header>
     <br>
     <br>
+    <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                    <h2 class="modal-title" id="exampleModalLabel" style="font-weight: bold;">Thông tin học viên</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="form-group ">
+                            <input type="text " class="form-control name" id="name" placeholder="Họ và tên" name="name" required>
+                        </div>
+                        <div class="form-group ">
+                            <input type="text " class="form-control phone-number" id="phone-number " placeholder="Số điện thoại" name="phone" required>
+                        </div>
+
+                        <div class="form-group flex">
+                            <select class="form-control tinhthanh  " name="tinhthanh" id="tinhthanh" required style="font-size: 0.8rem;">
+                            <option>Tỉnh/TP</option>
+                        </select>
+                            <select class="form-control " name="quanhuyen" id="quanhuyen" required style="font-size: 0.8rem;">
+                            <option disabled>Quận/huyện</option>
+                        </select>
+                            <select class="form-control  " name="xaphuong" id="xaphuong" required style="font-size: 0.8rem;">
+                            <option disabled>Xã/Phường</option>
+                        </select>
+                        </div>
+
+                        <div class="form-group ">
+                            <input type="text" class="form-control diachi" id="diachi" placeholder="Địa chỉ" name="diachi" required>
+                        </div>
+
+                        <div class="form-group ">
+                            <textarea class="form-control" id="note" rows="3" placeholder="Ghi chú thêm"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-top-0 d-flex justify-content-center">
+
+                        <button class="custom-btn btn-11 submit">Đăng ký ngay</button>
+
+                        <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
     <!-- Content wrapper start -->
     <div id="content-wrapper">
         <!-- Banner  -->
@@ -43,7 +91,7 @@
                         <h1 style="font-size: 50px; color:white;" class="nameshop"><b>TRUNG TÂM NGOẠI NGỮ</b></h1>
                         <h1 style="font-size: 40px;color:yellow;" class="nameshopdt"><b> IELTS LANGUESTS</b> </h1>
                         <p style="font-size: 15px;color:white;" class="namegiangvien">Founder & CEO VU QUANG LONG</p>
-                        <button class="custom-btn btn-11 btn-in-banner">Đăng ký ngay<div class="dot"></div></button>
+                        <button class="custom-btn btn-11 btn-in-banner" data-toggle="modal" data-target="#form">Đăng ký ngay<div class="dot"></div></button>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-12 space-top">
                         <div class="ribbon">
@@ -73,7 +121,7 @@
                                 </span>
                             </div>
                             <div class="btn-in-banner-2 space-top">
-                                <button class="custom-btn btn-11 ">Đăng ký ngay<div class="dot"></div></button>
+                                <button class="custom-btn btn-11 " data-toggle="modal" data-target="#form">Đăng ký ngay<div class="dot"></div></button>
                             </div>
 
                         </div>
@@ -222,7 +270,6 @@
                 <div class="name-title" style="text-align:center; font-size: 30px;font-weight: bold;"> Đội ngũ giảng viên</div>
                 <div class="content-title">Với đội ngũ giảng viên vô cùng uy tín và chất lượng chúng tôi tự tin sẽ giúp cho học viên có 1 kết quả tốt nhất sau khóa học</div>
             </div>
-            <br>
             <div class="container">
                 <div class="row">
                     <div class="column small-11 small-centered">
@@ -239,9 +286,6 @@
                             <div>
                                 <img src="https://bachminh.com/wp-content/uploads/2018/12/thu-tuc-thanh-lap-cong-ty-xay-dung.jpg" alt="">
                             </div>
-                             <div>
-                                <img src="https://bachminh.com/wp-content/uploads/2018/12/thu-tuc-thanh-lap-cong-ty-xay-dung.jpg" alt="">
-                            </div>
                             <div>
                                 <img src="https://img.vn/uploads/thuvien/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg" alt="">
                             </div>
@@ -252,9 +296,6 @@
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20FLkWjjqbGZMYmoS0bRA73TD93uQb7fjFg&usqp=CAU" alt="">
                             </div>
                             <div>
-                                <img src="https://bachminh.com/wp-content/uploads/2018/12/thu-tuc-thanh-lap-cong-ty-xay-dung.jpg" alt="">
-                            </div>
-                             <div>
                                 <img src="https://bachminh.com/wp-content/uploads/2018/12/thu-tuc-thanh-lap-cong-ty-xay-dung.jpg" alt="">
                             </div>
                         </div>
@@ -273,9 +314,6 @@
                                 <img src="https://bachminh.com/wp-content/uploads/2018/12/thu-tuc-thanh-lap-cong-ty-xay-dung.jpg" alt="">
                             </div>
                             <div>
-                                <img src="https://bachminh.com/wp-content/uploads/2018/12/thu-tuc-thanh-lap-cong-ty-xay-dung.jpg" alt="">
-                            </div>
-                                                        <div>
                                 <img src="https://img.vn/uploads/thuvien/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg" alt="">
                             </div>
                             <div>
@@ -283,9 +321,6 @@
                             </div>
                             <div>
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20FLkWjjqbGZMYmoS0bRA73TD93uQb7fjFg&usqp=CAU" alt="">
-                            </div>
-                            <div>
-                                <img src="https://bachminh.com/wp-content/uploads/2018/12/thu-tuc-thanh-lap-cong-ty-xay-dung.jpg" alt="">
                             </div>
                             <div>
                                 <img src="https://bachminh.com/wp-content/uploads/2018/12/thu-tuc-thanh-lap-cong-ty-xay-dung.jpg" alt="">
@@ -385,6 +420,9 @@
     <script src="./assets/js/plugin_mess.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'></script>
     <script src="./assets/js/slideshow/slide.js"></script>
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
 </body>
 
 </html>
