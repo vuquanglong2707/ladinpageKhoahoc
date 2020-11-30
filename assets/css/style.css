@@ -8,9 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-* {
-    box-sizing: border-box;
-}
 .flex {
     display: flex;
     justify-content: center;
@@ -56,7 +53,6 @@ a:hover {
 
 
 /**************************************Setting Button**********************************8  */
-
 
 
 /* button mua ngay */
@@ -130,6 +126,7 @@ a:hover {
     }
 }
 
+
 /* End setting button */
 
 
@@ -138,6 +135,16 @@ a:hover {
 
 /* Header start */
 
+
+/* header .container nav {
+    display: flex;
+    justify-content: center;
+} */
+
+
+/* * {
+    box-sizing: border-box;
+} */
 
 .line-through {
     text-decoration: line-through;
@@ -451,7 +458,7 @@ img {
     .ribbon .btn-in-banner-2 {
         display: flex;
     }
-    .ribbon .btn-in-banner-2 button {
+    .ribbon .btn-in-banner-2 a {
         margin: 0 auto !important;
     }
     .btn-in-banner {
@@ -707,7 +714,7 @@ img {
     .ribbon .btn-in-banner-2 {
         display: flex;
     }
-    .ribbon .btn-in-banner-2 button {
+    .ribbon .btn-in-banner-2 a {
         margin: 0 auto !important;
     }
     .btn-in-banner {
@@ -963,7 +970,7 @@ img {
     .ribbon .btn-in-banner-2 {
         display: flex;
     }
-    .ribbon .btn-in-banner-2 button {
+    .ribbon .btn-in-banner-2 a {
         margin: 0 auto !important;
     }
     .btn-in-banner {
@@ -1888,3 +1895,6 @@ ul.social-footer2 li a {
     -o-transition: all 250ms ease-in-out 0s;
     transition: all 250ms ease-in-out 0s;
 }
+
+
+/* Model */
